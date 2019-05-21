@@ -20,4 +20,11 @@ $(document).ready(function () {
       });
     });
   });
+  $('.slider').slick({
+    centerMode: true,        
+    infinite: true,
+    speed: 500,
+    centerPadding: '60px',
+    slidesToShow: 3    
+  });
 });
